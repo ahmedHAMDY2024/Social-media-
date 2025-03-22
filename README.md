@@ -47,12 +47,13 @@ Connectify is a frontend-only social media platform built with React.js that all
 
 ### 1️⃣ Home Feed (Posts & Interactions)  
 A sleek interface with user posts, images, text, and interaction buttons.  
+![Home page](public/design/Picture1.png)
 
 ### 2️⃣ User Profile Page  
 Profile picture, cover photo, bio, and user posts.  
-
+![Profile page](public/design/Picture2.png)
 ### 3️⃣ Chat System (Coming Soon!)  
 A clean chat interface with conversations and real-time messages.  
-
+![Chat System](public/design/Picture3.png)
 ### 4️⃣ Login & Signup Page (Coming Soon!)  
-
+![Login &Signup page](public/design/Picture4.png)
