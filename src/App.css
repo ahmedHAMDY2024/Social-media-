@@ -1,11 +1,12 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-body{
-  width: 100%;
+body {
+  max-width: 100vw;
   min-height: 100vh;
+  overflow: hidden;
 }
 /* #root {
   max-width: 1280px;
@@ -49,3 +50,27 @@ body{
 .read-the-docs {
   color: #888;
 } */
+.contaner {
+  width: 100%;
+  min-height: 90vh;
+  display: flex;
+}
+.masseges {
+  background-color: black;
+  min-height: 90vh;
+  width: 200px;
+  color: aliceblue;
+}
+.adds {
+  background-color: black;
+  min-height: 90vh;
+  width: 200px;
+  color: aliceblue;
+}
+.pagesContent {
+  background-color: rgb(165, 117, 45);
+  height: 90vh;
+  min-width: calc(100vw - 400px);
+  max-width: calc(100vw - 250px);
+  overflow-y: scroll;
+}

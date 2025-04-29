@@ -1,6 +1,6 @@
 .navpar {
   width: 100%;
-  height: 50px;
+  height: 10vh;
   background-color: rgb(59, 45, 255);
   padding: 0 30px;
   display: flex;
@@ -19,9 +19,19 @@
   text-decoration: none;
 }
 .boxSearch input {
+  background-color: aliceblue;
   width: 300px;
   height: 30px;
-  border-radius: 10px 0 10px 0;
-  border: 2px solid rgb(11, 124, 237);
+  border-radius: 10px 0 0 0;
+  border-color: rgb(255, 255, 255);
+  border: 0;
   padding: 0 10px;
+}
+.searchbtn {
+  background-color: aliceblue;
+  width: 70px;
+  height: 30px;
+  border: 0;
+  border-color: rgb(255, 255, 255);
+  border-radius: 0 0 10px 0;
 }

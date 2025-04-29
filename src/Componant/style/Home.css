@@ -1,5 +1,51 @@
-.Home{
-    width: 100%;
-    min-height: 100vh;
-    background-color: rgb(0, 255, 0);
+.Home {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(164, 206, 164);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.carousel {
+  width: 50%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.imgPost {
+  border-radius: 20px;
+}
+.comment-like {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 0 0 2px 0;
+}
+.comment-like span {
+  font-size: 30px;
+  color: #2c1875;
+}
+.comment {
+  width: 90%;
+  height: 50px;
+  margin-top: 10px;
+}
+.inputComment {
+  width: 80%;
+  height: 40px;
+  background-color: aliceblue;
+  padding-left: 10px;
+  border-right: 0;
+  border-radius: 10px 0 0 10px;
+}
+.btnCommeny {
+  width: 20%;
+  height: 40px;
+  background-color: aliceblue;
+  border-left: 0;
+  border-radius: 0 10px 10px 0;
+  color: rgb(62, 64, 140);
 }

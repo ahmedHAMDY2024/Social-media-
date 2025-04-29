@@ -11,6 +11,7 @@ function Navbar(){
             </div>
             <div className="boxSearch">
                 <input type="text" placeholder="Search"/>
+                <button className="searchbtn" type="button" >search</button>
             </div>
         </div>
         </>

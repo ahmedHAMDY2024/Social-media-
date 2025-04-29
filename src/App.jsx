@@ -12,12 +12,22 @@ function App() {
     <>
     <Router>
       <Navbar />
+      <div className="contaner">
+      <div className="adds">
+        <h1>adds</h1>
+      </div>
+      <div className="pagesContent">
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/create-post" element={<CreatePost />} />
         <Route path="/chat" element={<Chat />} />
       </Routes>
+      </div>
+      <div className="masseges">
+        <h1>masseges</h1>
+      </div>
+      </div>
     </Router>
     </>
   );
