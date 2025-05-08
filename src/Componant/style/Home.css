@@ -13,6 +13,19 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  border-bottom: 1px solid black;
+}
+.userData {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 20px;
+}
+.userData img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
 }
 .imgPost {
   border-radius: 20px;
@@ -24,9 +37,9 @@
   align-items: center;
   border: 0 0 2px 0;
 }
-.comment-like span {
-  font-size: 30px;
-  color: #2c1875;
+.AddLike,
+.AddComeent {
+  cursor: pointer;
 }
 .comment {
   width: 90%;

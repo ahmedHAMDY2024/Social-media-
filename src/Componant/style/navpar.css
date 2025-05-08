@@ -8,7 +8,7 @@
   align-items: center;
 }
 .boxLinks {
-  width: 1 00%;
+  width: 30vw;
   display: flex;
   justify-content: space-around;
   gap: 40px;
@@ -18,20 +18,24 @@
   color: aliceblue;
   text-decoration: none;
 }
+.boxSearch {
+  width: 30vw;
+  display: flex;
+  align-items: center;
+}
 .boxSearch input {
   background-color: aliceblue;
-  width: 300px;
+  width: 70%;
   height: 30px;
   border-radius: 10px 0 0 0;
-  border-color: rgb(255, 255, 255);
   border: 0;
   padding: 0 10px;
 }
 .searchbtn {
   background-color: aliceblue;
-  width: 70px;
+  width: 30%;
   height: 30px;
   border: 0;
-  border-color: rgb(255, 255, 255);
   border-radius: 0 0 10px 0;
+  padding: 0 10px;
 }

@@ -70,7 +70,18 @@ body {
 .pagesContent {
   background-color: rgb(165, 117, 45);
   height: 90vh;
-  min-width: calc(100vw - 400px);
-  max-width: calc(100vw - 250px);
+  width: calc(100vw - 400px);
   overflow-y: scroll;
+}
+
+@media screen and (max-width: 600px) {
+  .adds{
+    display: none;
+  }
+  .masseges {
+    display: none;
+  }
+  .pagesContent {
+    width: 100%;
+  }
 }
