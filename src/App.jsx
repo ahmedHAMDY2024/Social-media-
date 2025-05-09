@@ -5,27 +5,31 @@ import Profile from "./Componant/pages/Profile";
 import Navbar from "./Componant/Navpar";
 import CreatePost from "./Componant/pages/Create_Poste";
 import Chat from "./Componant/pages/Chat";
+import Sidebar from'./Componant/Sidebar'
+import Login from "./Componant/pages/Login"
 import "./App.css";
 
 function App() {
   return (
     <>
     <Router>
+    <Login />
       <Navbar />
       <div className="contaner">
-      <div className="adds">
-        <h1>adds</h1>
-      </div>
+
       <div className="pagesContent">
       <Routes>
-        <Route path="/" element={<Home/>} />
+        {/* <Route path="/" element={<Login />} /> */}
+        <Route path="/Home" element={<Home/>} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/create-post" element={<CreatePost />} />
         <Route path="/chat" element={<Chat />} />
+
       </Routes>
       </div>
       <div className="masseges">
-        <h1>masseges</h1>
+        <Sidebar/>
+        
       </div>
       </div>
     </Router>

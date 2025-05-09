@@ -5,7 +5,7 @@ function Navbar(){
         <>
         <div className="navpar">
             <div className="boxLinks" >
-                <Link to={'/'} className="link">Home</Link>
+                <Link to={'/Home'} className="link">Home</Link>
                 <Link to={'/profile'}className="link">profile</Link>
                 <Link to={"/chat"}className="link">chat</Link>
             </div>

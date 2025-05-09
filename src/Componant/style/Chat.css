@@ -1,5 +1,58 @@
-.Chat{
-    width: 100%;
-    min-height: 100vh;
-    background-color: rgb(255, 0, 0);
+.chat-container {
+  width: 100%;
+  min-height: 90vh;
+  padding: 2rem;
+  max-width: 600px;
+  margin: auto;
+  background: #f9f9f9;
+  border-radius: 12px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.chat-container h1 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.chat-messages {
+  background: #fff;
+  padding: 1rem;
+  height: 200px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.chat-messages p {
+  margin: 0.5rem 0;
+  padding: 0.4rem 0.6rem;
+  background: #e1f5fe;
+  border-radius: 6px;
+}
+
+.chat-input {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.chat-input input {
+  flex: 1;
+  padding: 0.6rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.chat-input button {
+  padding: 0.6rem 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.chat-input button:hover {
+  background-color: #0056b3;
 }

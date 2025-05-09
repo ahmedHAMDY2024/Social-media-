@@ -1,5 +1,30 @@
-.Profile {
+.profile-container {
+  padding: 2rem;
   width: 100%;
   min-height: 100vh;
-  background-color: aqua;
+  margin: auto;
+  background-color: #d4cfcf;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", sans-serif;
+}
+.profileImg {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid #333;
+}
+.profile-container h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.profile-container p {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+}
+
+.profile-container strong {
+  color: #555;
 }
