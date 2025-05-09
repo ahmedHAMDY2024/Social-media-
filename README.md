@@ -1,4 +1,14 @@
 # Connectify - Frontend-Only Social Media Website
+![Home page](https://tse3.mm.bing.net/th?id=OIP.38KB_ZCw3AYFfc2BYLaRaAHaEo&pid=Api&P=0&h=220)
+
+# Team Mempers
+## 🔹 Ahmed Hamdy Ahmed
+## 🔹 Khaled nasr eldin mohamed
+## 🔹 Mohammed Abdulhamid Sayel     
+## 🔹 Hamza Abdulhamid Sayel     
+## 🔹 Ahmed Nasser Ahmed
+## 🔹Fares Ali Abubakr
+
 
 ## 📌 Project Overview  
 Connectify is a frontend-only social media platform built with React.js that allows users to view and interact with posts, update their profiles, and chat using dummy data.
@@ -45,15 +55,3 @@ Connectify is a frontend-only social media platform built with React.js that all
 
 ## 📸 Project Images  
 
-### 1️⃣ Home Feed (Posts & Interactions)  
-A sleek interface with user posts, images, text, and interaction buttons.  
-![Home page](public/design/Picture1.png)
-
-### 2️⃣ User Profile Page  
-Profile picture, cover photo, bio, and user posts.  
-![Profile page](public/design/Picture2.png)
-### 3️⃣ Chat System (Coming Soon!)  
-A clean chat interface with conversations and real-time messages.  
-![Chat System](public/design/Picture3.png)
-### 4️⃣ Login & Signup Page (Coming Soon!)  
-![Login &Signup page](public/design/Picture4.png)
