@@ -9,8 +9,9 @@ const user = {
     function Profile() {
         return (
           <div className="profile-container">
+            <div className='backgruondImg'></div>
             <img className='profileImg' src='https://tse2.mm.bing.net/th?id=OIP.bPHIW2pOvehoq9tC3ysh7wHaE8&pid=Api&P=0&h=220'/>
-            <h1>My Profile</h1>
+            <h1>{user.username}</h1>
             <p><strong>Username:</strong> {user.username}</p>
             <p><strong>Name:</strong> {user.name}</p>
             <p><strong>Bio:</strong> {user.bio}</p>

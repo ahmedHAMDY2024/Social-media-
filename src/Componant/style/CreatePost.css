@@ -1,5 +1,41 @@
-.createPost{
-    width: 100%;
-    min-height: 100vh;
-    background-color: rgb(200, 255, 0);
+.createPost {
+  width: 50%;
+  height: 200px;
+  background-color: rgb(255, 255, 255);
+  margin-top: 30px;
+}
+.inputbox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.inputbox img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.inputbox input {
+  width: 400px;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 1000, "GRAD" 0, "opsz" 24;
+  color: aquamarine;
+  font-size: 30px;
+}
+.material-symbols-rounded {
+  font-variation-settings: "FILL" 0, "wght" 1000, "GRAD" 0, "opsz" 24;
+  color: rgb(239, 8, 8);
+  font-size: 30px;
+}
+.postType {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.postPhoto,
+.PostVideo {
+  display: flex;
+  gap: 5px;
 }
