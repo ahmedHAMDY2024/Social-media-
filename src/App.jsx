@@ -1,16 +1,15 @@
-import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-dom";
 import Home from "./Componant/pages/Home";
 import Profile from "./Componant/pages/Profile";
-import Navbar from "./Componant/Navpar";
+import Navbar from "./Navbar";
 import CreatePost from "./Componant/pages/Create_Poste";
 import Chat from "./Componant/pages/Chat";
-import Sidebar from'./Componant/Sidebar'
+import Sidebar from './Sidebar'
 import Login from "./Componant/pages/Login"
 import Signup from './Componant/pages/Signup';
-import UserAuthContextProvider from "./Componant/UserAuthContextProvider";
-import { useAuth } from "./Componant/UserAuthContext";
-import "./App.css";
+import UserAuthContextProvider from "./UserAuthContextProvider";
+import { useAuth } from "./UserAuthContext";
+import "./Componant/style/App.css";
 
 function App() {
   return (
@@ -30,12 +29,30 @@ function AppContent() {
       <div className="contaner">
         <div className="pagesContent">
           <Routes>
-            <Route path="/" element={<Login />} />
-            <Route path="/signup" element={<Signup />} />
-            <Route path="/Home" element={<Home />} />
-            <Route path="/profile" element={<Profile />} />
-            <Route path="/create-post" element={<CreatePost />} />
-            <Route path="/chat" element={<Chat />} />
+            <Route
+              path="/"
+              element={user ? <Navigate to="/Home" replace /> : <Login />}
+            />
+            <Route
+              path="/signup"
+              element={user ? <Navigate to="/Home" replace /> : <Signup />}
+            />
+            <Route
+              path="/Home"
+              element={user ? <Home /> : <Navigate to="/" replace />}
+            />
+            <Route
+              path="/profile"
+              element={user ? <Profile /> : <Navigate to="/" replace />}
+            />
+            <Route
+              path="/create-post"
+              element={user ? <CreatePost /> : <Navigate to="/" replace />}
+            />
+            <Route
+              path="/chat"
+              element={user ? <Chat /> : <Navigate to="/" replace />}
+            />
           </Routes>
         </div>
         {user && (

@@ -1,4 +1,5 @@
-import "./sid.css";
+import "./Componant/style/sidebar.css";
+
 const sidebarMessages = [
     { id: 1, sender: "Sara", text: "Hey there!" },
     { id: 2, sender: "Ali", text: "How are you today?" },

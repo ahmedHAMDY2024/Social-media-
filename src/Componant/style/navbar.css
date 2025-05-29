@@ -1,12 +1,18 @@
-.navpar {
-  width: 100%;
+.navbar {
+  width: 100vw;
+  min-width: 100vw;
   height: 10vh;
   background-color: rgb(59, 45, 255);
   padding: 0 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
+  left: 0;
+  top: 0;
+  box-sizing: border-box;
 }
+
 .boxLinks {
   width: 30vw;
   display: flex;

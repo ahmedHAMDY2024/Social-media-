@@ -1,6 +1,6 @@
 import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from "./UserAuthContext";
-import './style/navpar.css';
+import './Componant/style/navbar.css';
 
 function Navbar() {
     const { user, logout } = useAuth();
@@ -13,7 +13,7 @@ function Navbar() {
 
     return (
         <>
-        <div className="navpar">
+        <div className="navbar">
             <div className="boxLinks" >
                 <Link to={'/Home'} className="link">Home</Link>
                 <Link to={'/profile'} className="link">profile</Link>
